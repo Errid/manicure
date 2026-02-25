@@ -75,3 +75,7 @@ Thumbs.db
 *.pem
 *.key
 *.pfx
+
+# Markdown files (except README)
+*.md
+!README.md
