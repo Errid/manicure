@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+/.npm
+/.eslintcache
+
+# Production & Build
+/dist
+/dist-ssr
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.codeblocks
+*.code-workspace
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+eThumbs.db
+desktop.ini
+Thumbs.db
+
+# Testing
+/coverage
+.nyc_output/
+/.mocha-env
+
+# Temporary files
+*.tmp
+*.bak
+*.swo
+*.swp
+.cache/
+.next/
+.nuxt/
+
+# Admin auth tokens & keys (NEVER commit these!)
+.supabase/
+*.pem
+*.key
+*.pfx
